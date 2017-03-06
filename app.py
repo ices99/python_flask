@@ -16,7 +16,7 @@ app = Flask(__name__)
 bootstrap = Bootstrap(app)
 
 app.secret_key = SECRET_KEY
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://todo_f:unixso@127.0.0.1/todo_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://tudo_f:abc123@localhost/tudo_db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 
